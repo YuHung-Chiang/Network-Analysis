@@ -1,0 +1,1156 @@
+{
+    "Source_Tweets": {
+        "552783667052167168": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552793679082311680": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553548567420628992": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "552832817089236992": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552833028201144320": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553184482241814530": {
+            "support": "denying",
+            "certainty": "somewhat-certain"
+        },
+        "553534838880608256": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553512735192141826": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552834961762709505": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553197863971610624": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552792802309181440": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553586860334010368": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553486439129038848": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552848620375261184": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "553588178687655936": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553518472798683136": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553503184174710784": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552805488631758849": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553506608203169792": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553221600955621376": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553549686129561600": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552792913910833152": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552996335319007233": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552806309540528128": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553550301886955520": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553558982476828674": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553212962044149761": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553538058440941568": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "552984502063337472": {
+            "support": "denying",
+            "certainty": "certain"
+        },
+        "553467311261503488": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "552982613288157184": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552792544132997121": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "553535829017370625": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553590835850514433": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "553587672137334785": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "552821069036670976": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553531413459660800": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "553476490315431937": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553589051044151296": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552791578893619200": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553152395371630592": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553505242554175489": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553474188259102720": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552978184413921281": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "553544694765215745": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553476880339599360": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "552802654641225728": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553579224402235393": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553586897168392192": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553566026030272512": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553164985460068352": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "553590459688570880": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553160652567498752": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552785375161499649": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552806757672964097": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553107921081749504": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552810448324943872": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553576010898497536": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "553501357156876290": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552978099357237248": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553587013409325058": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553489393202499584": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553543369604210689": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "553508098825261056": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552816020403269632": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552811386259386370": {
+            "support": "supporting",
+            "certainty": "somewhat-certain"
+        },
+        "553587303172833280": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552791196247269378": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "553544252563935234": {
+            "support": "supporting",
+            "certainty": "certain"
+        },
+        "552814494381256704": {
+            "support": "supporting",
+            "certainty": "certain"
+        }
+    },
+    "Reply_Tweets": {
+        "552794951487352832": {
+            "threadid": "552793679082311680",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553552287889494017": {
+            "threadid": "553548567420628992",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553552625724301314": {
+            "threadid": "553548567420628992",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553554289835376643": {
+            "threadid": "553548567420628992",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552837389870448640": {
+            "threadid": "552832817089236992",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553513642478813184": {
+            "threadid": "553512735192141826",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553201889685553153": {
+            "threadid": "553197863971610624",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552793142693744640": {
+            "threadid": "552792802309181440",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552793785747660801": {
+            "threadid": "552792802309181440",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552808923707617282": {
+            "threadid": "552792802309181440",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553587039598571523": {
+            "threadid": "553586860334010368",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553587214987558912": {
+            "threadid": "553586860334010368",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553487414409564160": {
+            "threadid": "553486439129038848",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "somewhat-certain"
+        },
+        "553487881113989120": {
+            "threadid": "553486439129038848",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552850359266197504": {
+            "threadid": "552848620375261184",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552850999443202049": {
+            "threadid": "552848620375261184",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552857418062127104": {
+            "threadid": "552848620375261184",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552858826043424768": {
+            "threadid": "552848620375261184",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553589124125323264": {
+            "threadid": "553588178687655936",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553518706681053184": {
+            "threadid": "553518472798683136",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553518879222161408": {
+            "threadid": "553518472798683136",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553519787943690242": {
+            "threadid": "553518472798683136",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553520342111494145": {
+            "threadid": "553518472798683136",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553520622920536064": {
+            "threadid": "553518472798683136",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553521650831196160": {
+            "threadid": "553518472798683136",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553503712157904898": {
+            "threadid": "553503184174710784",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553504854794969088": {
+            "threadid": "553503184174710784",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553507708574244864": {
+            "threadid": "553503184174710784",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552805847777415168": {
+            "threadid": "552805488631758849",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553507133464248320": {
+            "threadid": "553506608203169792",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553509397063041024": {
+            "threadid": "553506608203169792",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553549946725875712": {
+            "threadid": "553549686129561600",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553555102423089152": {
+            "threadid": "553549686129561600",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "552793275770613760": {
+            "threadid": "552792913910833152",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552793775740055552": {
+            "threadid": "552792913910833152",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552806614973960192": {
+            "threadid": "552806309540528128",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552806751746396160": {
+            "threadid": "552806309540528128",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552806767625641984": {
+            "threadid": "552806309540528128",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553550497852821504": {
+            "threadid": "553550301886955520",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553550508565479425": {
+            "threadid": "553550301886955520",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553550610675818496": {
+            "threadid": "553550301886955520",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553551446164402176": {
+            "threadid": "553550301886955520",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553551949745119233": {
+            "threadid": "553550301886955520",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552992417969082369": {
+            "threadid": "552982613288157184",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553591266316152832": {
+            "threadid": "553590835850514433",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553590107807428608": {
+            "threadid": "553587672137334785",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552827345435103234": {
+            "threadid": "552821069036670976",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "554247300738854912": {
+            "threadid": "553531413459660800",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552797785427558401": {
+            "threadid": "552791578893619200",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552818611015131136": {
+            "threadid": "552791578893619200",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553511231735099392": {
+            "threadid": "553505242554175489",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553575800122118144": {
+            "threadid": "553575232867672064",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553580837477056514": {
+            "threadid": "553575232867672064",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553545342055354368": {
+            "threadid": "553544694765215745",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553547771127812096": {
+            "threadid": "553544694765215745",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552803445711708160": {
+            "threadid": "552802654641225728",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552804298870910977": {
+            "threadid": "552802654641225728",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553579500139589632": {
+            "threadid": "553579224402235393",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553585746754682880": {
+            "threadid": "553579224402235393",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552791567401238529": {
+            "threadid": "552791196247269378",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "somewhat-certain"
+        },
+        "552792023078825984": {
+            "threadid": "552791196247269378",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "552792212056993792": {
+            "threadid": "552791196247269378",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "552792555944153088": {
+            "threadid": "552791196247269378",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552792656552939523": {
+            "threadid": "552791196247269378",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552794111447941121": {
+            "threadid": "552791196247269378",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552795629768814592": {
+            "threadid": "552791196247269378",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553587367983194113": {
+            "threadid": "553586897168392192",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553589683402579968": {
+            "threadid": "553586897168392192",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553591055783051264": {
+            "threadid": "553586897168392192",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553566214174556160": {
+            "threadid": "553566026030272512",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553187846035873793": {
+            "threadid": "553164985460068352",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553590836588740609": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553590917316505600": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553590957317566466": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553590974044069888": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "somewhat-certain"
+        },
+        "553590981967511553": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553591098074226688": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553591134807920640": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553591179078410240": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553591453675696129": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553591570680004608": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553591626485215232": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553591653404270592": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553591766893727744": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553592018270978049": {
+            "threadid": "553590459688570880",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553160945657462785": {
+            "threadid": "553160652567498752",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553161275904376832": {
+            "threadid": "553160652567498752",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "somewhat-certain"
+        },
+        "553169488104140801": {
+            "threadid": "553160652567498752",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "552785851655393281": {
+            "threadid": "552785375161499649",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552785877748158464": {
+            "threadid": "552785375161499649",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "552807298192510977": {
+            "threadid": "552806757672964097",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "552808047643729920": {
+            "threadid": "552806757672964097",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552808137737383936": {
+            "threadid": "552806757672964097",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "552810796884189184": {
+            "threadid": "552806757672964097",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552812322075729920": {
+            "threadid": "552806757672964097",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552823438457311232": {
+            "threadid": "552806757672964097",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552825292184514561": {
+            "threadid": "552806757672964097",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553544735131201536": {
+            "threadid": "553544252563935234",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553545099905601536": {
+            "threadid": "553544252563935234",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553545546947104768": {
+            "threadid": "553544252563935234",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553545985624784896": {
+            "threadid": "553544252563935234",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553546195772407808": {
+            "threadid": "553544252563935234",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553550518531141632": {
+            "threadid": "553544252563935234",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "somewhat-certain"
+        },
+        "553557332261490688": {
+            "threadid": "553544252563935234",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553109367042887680": {
+            "threadid": "553107921081749504",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553132986087268352": {
+            "threadid": "553107921081749504",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "somewhat-certain"
+        },
+        "552810702990475265": {
+            "threadid": "552810448324943872",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "552811835057909761": {
+            "threadid": "552810448324943872",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552811928188645376": {
+            "threadid": "552810448324943872",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552812469958111232": {
+            "threadid": "552810448324943872",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553576829345628160": {
+            "threadid": "553576010898497536",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553577770983645186": {
+            "threadid": "553576010898497536",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553577813056716800": {
+            "threadid": "553576010898497536",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553579107620237312": {
+            "threadid": "553576010898497536",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553503365100228609": {
+            "threadid": "553501357156876290",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553503876394262528": {
+            "threadid": "553501357156876290",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553199352060325888": {
+            "threadid": "552978099357237248",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553587160088338432": {
+            "threadid": "553587013409325058",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553587387889373186": {
+            "threadid": "553587013409325058",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553587395942420480": {
+            "threadid": "553587013409325058",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553587422445846529": {
+            "threadid": "553587013409325058",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553463489209978880": {
+            "threadid": "553461741917863936",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553490522523070464": {
+            "threadid": "553489393202499584",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553503751609143296": {
+            "threadid": "553489393202499584",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553544770430464000": {
+            "threadid": "553543369604210689",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553549440263675904": {
+            "threadid": "553543369604210689",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552817849845436416": {
+            "threadid": "552816020403269632",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "somewhat-certain"
+        },
+        "553485100932157440": {
+            "threadid": "553478289474740224",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552812365692289025": {
+            "threadid": "552811386259386370",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552812548366798848": {
+            "threadid": "552811386259386370",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552813011338285056": {
+            "threadid": "552811386259386370",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552836538875531265": {
+            "threadid": "552811386259386370",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553587678726594560": {
+            "threadid": "553587303172833280",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553587829977399296": {
+            "threadid": "553587303172833280",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553588231238090752": {
+            "threadid": "553587303172833280",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553588250087268352": {
+            "threadid": "553587303172833280",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553567980354031616": {
+            "threadid": "553566026030272512",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552815415949557760": {
+            "threadid": "552814494381256704",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552816420074291200": {
+            "threadid": "552814494381256704",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "552816523593916416": {
+            "threadid": "552814494381256704",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552817606194135041": {
+            "threadid": "552814494381256704",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "552786226546495488": {
+            "threadid": "552783667052167168",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553199418032521216": {
+            "threadid": "553197863971610624",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553201111159824384": {
+            "threadid": "553197863971610624",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553201660953366528": {
+            "threadid": "553197863971610624",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553891758271369216": {
+            "threadid": "553197863971610624",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552816281737363458": {
+            "threadid": "552805488631758849",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552818667293904898": {
+            "threadid": "552805488631758849",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552819213165801472": {
+            "threadid": "552805488631758849",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552819928315617281": {
+            "threadid": "552805488631758849",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552814516262555648": {
+            "threadid": "552805488631758849",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552819966006001664": {
+            "threadid": "552805488631758849",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552822741250736128": {
+            "threadid": "552805488631758849",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552814605115064323": {
+            "threadid": "552805488631758849",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552813327018385408": {
+            "threadid": "552805488631758849",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553121495791464448": {
+            "threadid": "552805488631758849",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553556666969763841": {
+            "threadid": "552805488631758849",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553512763906334722": {
+            "threadid": "553506608203169792",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553526618720075776": {
+            "threadid": "553506608203169792",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553574968563625985": {
+            "threadid": "553549686129561600",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553009820409024512": {
+            "threadid": "552996335319007233",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "553023430443167746": {
+            "threadid": "552996335319007233",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552808399885185024": {
+            "threadid": "552806309540528128",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552809081233080320": {
+            "threadid": "552806309540528128",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        },
+        "552812425758912512": {
+            "threadid": "552806309540528128",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553225926436089856": {
+            "threadid": "552806309540528128",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553615536354246656": {
+            "threadid": "553590835850514433",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "552796152295219200": {
+            "threadid": "552791196247269378",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553591222456291328": {
+            "threadid": "553586897168392192",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553567740104286209": {
+            "threadid": "553566026030272512",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553504747508879360": {
+            "threadid": "553501357156876290",
+            "responsetype-vs-source": "disagreed",
+            "certainty": "certain"
+        },
+        "553589243583672320": {
+            "threadid": "553587013409325058",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553548306383912960": {
+            "threadid": "553543369604210689",
+            "responsetype-vs-source": "agreed",
+            "certainty": "somewhat-certain"
+        },
+        "553587863921917953": {
+            "threadid": "553587303172833280",
+            "responsetype-vs-source": "agreed",
+            "certainty": "certain"
+        }
+    }
+}

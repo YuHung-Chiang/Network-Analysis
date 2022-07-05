@@ -1,0 +1,241 @@
+{
+    "553512735192141826": {
+        "Source Tweets": {
+            "event": "charliehebdo",
+            "threadid": "553512735192141826",
+            "tweetid": "553512735192141826",
+            "support": "supporting",
+            "evidentiality": "source-quoted",
+            "certainty": "certain"
+        },
+        "Direct Replies": [
+            {
+                "event": "charliehebdo",
+                "threadid": "553512735192141826",
+                "tweetid": "553513642478813184",
+                "responsetype-vs-source": "disagreed",
+                "certainty": "certain",
+                "evidentiality": "witnessed"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553512735192141826",
+                "tweetid": "553513916572381185",
+                "responsetype-vs-source": "comment"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553512735192141826",
+                "tweetid": "553514819085946881",
+                "responsetype-vs-source": "disagreed",
+                "certainty": "uncertain",
+                "evidentiality": "witnessed"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553512735192141826",
+                "tweetid": "553516393791238145",
+                "responsetype-vs-source": "comment"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553512735192141826",
+                "tweetid": "553820631087988736",
+                "responsetype-vs-source": "comment"
+            }
+        ],
+        "Deep Replies": []
+    },
+    "553486439129038848": {
+        "Source Tweets": {
+            "event": "charliehebdo",
+            "threadid": "553486439129038848",
+            "tweetid": "553486439129038848",
+            "support": "supporting",
+            "evidentiality": "source-quoted",
+            "certainty": "certain"
+        },
+        "Direct Replies": [
+            {
+                "event": "charliehebdo",
+                "threadid": "553486439129038848",
+                "tweetid": "553486598328041472",
+                "responsetype-vs-source": "comment"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553486439129038848",
+                "tweetid": "553486812787007488",
+                "responsetype-vs-source": "comment"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553486439129038848",
+                "tweetid": "553486913970397186",
+                "responsetype-vs-source": "comment"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553486439129038848",
+                "tweetid": "553487052776693761",
+                "responsetype-vs-source": "comment"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553486439129038848",
+                "tweetid": "553487150550089728",
+                "responsetype-vs-source": "comment"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553486439129038848",
+                "tweetid": "553487414409564160",
+                "responsetype-vs-source": "disagreed",
+                "certainty": "somewhat-certain",
+                "evidentiality": "source-quoted"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553486439129038848",
+                "tweetid": "553487881113989120",
+                "responsetype-vs-source": "agreed",
+                "certainty": "certain",
+                "evidentiality": "witnessed"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553486439129038848",
+                "tweetid": "553543395717550080",
+                "responsetype-vs-source": "comment"
+            }
+        ],
+        "Deep Replies": []
+    },
+    "552984502063337472": {
+        "Source Tweets": {
+            "event": "charliehebdo",
+            "threadid": "552984502063337472",
+            "tweetid": "552984502063337472",
+            "certainty": "certain",
+            "support": "denying",
+            "evidentiality": "url-given"
+        },
+        "Direct Replies": [
+            {
+                "event": "charliehebdo",
+                "threadid": "552984502063337472",
+                "tweetid": "552989544589430784",
+                "certainty": "underspecified",
+                "evidentiality": "unverifiable-source-quoted",
+                "responsetype-vs-source": "agreed"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "552984502063337472",
+                "tweetid": "553091815218237440",
+                "responsetype-vs-source": "comment"
+            }
+        ],
+        "Deep Replies": []
+    },
+    "552785375161499649": {
+        "Source Tweets": {
+            "event": "charliehebdo",
+            "threadid": "552785375161499649",
+            "tweetid": "552785375161499649",
+            "certainty": "certain",
+            "evidentiality": "url-given",
+            "support": "supporting"
+        },
+        "Direct Replies": [
+            {
+                "event": "charliehebdo",
+                "threadid": "552785375161499649",
+                "tweetid": "552785851655393281",
+                "responsetype-vs-source": "agreed",
+                "certainty": "certain",
+                "evidentiality": "no-evidence"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "552785375161499649",
+                "tweetid": "552785877748158464",
+                "responsetype-vs-source": "agreed",
+                "certainty": "somewhat-certain",
+                "evidentiality": "unverifiable-source-quoted"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "552785375161499649",
+                "tweetid": "552788073340489728",
+                "responsetype-vs-source": "comment"
+            }
+        ],
+        "Deep Replies": []
+    },
+    "553489393202499584": {
+        "Source Tweets": {
+            "event": "charliehebdo",
+            "threadid": "553489393202499584",
+            "tweetid": "553489393202499584",
+            "certainty": "certain",
+            "evidentiality": "url-given",
+            "support": "supporting"
+        },
+        "Direct Replies": [
+            {
+                "event": "charliehebdo",
+                "threadid": "553489393202499584",
+                "tweetid": "553489471413714944",
+                "responsetype-vs-source": "comment"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553489393202499584",
+                "tweetid": "553489533526765568",
+                "responsetype-vs-source": "comment"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553489393202499584",
+                "tweetid": "553489581035622401",
+                "responsetype-vs-source": "comment"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553489393202499584",
+                "tweetid": "553490069609136128",
+                "responsetype-vs-source": "comment"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553489393202499584",
+                "tweetid": "553490522523070464",
+                "responsetype-vs-source": "agreed",
+                "certainty": "certain",
+                "evidentiality": "url-given"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553489393202499584",
+                "tweetid": "553490860369653761",
+                "responsetype-vs-source": "comment"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553489393202499584",
+                "tweetid": "553491367159017472",
+                "responsetype-vs-source": "comment"
+            },
+            {
+                "event": "charliehebdo",
+                "threadid": "553489393202499584",
+                "tweetid": "553503751609143296",
+                "responsetype-vs-source": "agreed",
+                "certainty": "certain",
+                "evidentiality": "url-given"
+            }
+        ],
+        "Deep Replies": []
+    }
+}
