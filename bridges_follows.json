@@ -1,0 +1,54 @@
+{
+    "64643056": {
+        "rumours": [],
+        "non_rumours": [],
+        "bridges": []
+    },
+    "1367531": {
+        "rumours": [],
+        "non_rumours": [],
+        "bridges": []
+    },
+    "51241574": {
+        "rumours": [],
+        "non_rumours": [],
+        "bridges": []
+    },
+    "428333": {
+        "rumours": [],
+        "non_rumours": [],
+        "bridges": [
+            "2097571"
+        ]
+    },
+    "5402612": {
+        "rumours": [],
+        "non_rumours": [],
+        "bridges": []
+    },
+    "1994321": {
+        "rumours": [
+            "9651232",
+            "25049056"
+        ],
+        "non_rumours": [],
+        "bridges": []
+    },
+    "2097571": {
+        "rumours": [],
+        "non_rumours": [],
+        "bridges": [
+            "428333"
+        ]
+    },
+    "28785486": {
+        "rumours": [],
+        "non_rumours": [],
+        "bridges": []
+    },
+    "3108351": {
+        "rumours": [],
+        "non_rumours": [],
+        "bridges": []
+    }
+}
