@@ -1,0 +1,362 @@
+{
+    "64643056": {
+        "rum_count": 8,
+        "nonrum_count": 2,
+        "rumours": {
+            "226997507": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "227441287": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "20707060": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "2370908751": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "1627753237": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "127836912": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "256358298": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "2217457444": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        },
+        "non_rumours": {
+            "562236448": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "2302890619": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        }
+    },
+    "1367531": {
+        "rum_count": 6,
+        "nonrum_count": 2,
+        "rumours": {
+            "2560120714": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "27345147": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "271875446": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "424455969": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "181057672": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "223637055": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        },
+        "non_rumours": {
+            "22585606": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "1715176734": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        }
+    },
+    "51241574": {
+        "rum_count": 5,
+        "nonrum_count": 1,
+        "rumours": {
+            "133353171": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "1061029789": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "32365573": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "71277067": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "474309032": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        },
+        "non_rumours": {
+            "34126592": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        }
+    },
+    "428333": {
+        "rum_count": 6,
+        "nonrum_count": 4,
+        "rumours": {
+            "23153001": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "150111340": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "2295911619": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "253471213": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "25777686": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "370775638": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        },
+        "non_rumours": {
+            "2762702188": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "567039350": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "2707815410": {
+                "betweeness": 5.2328623757195185e-05,
+                "closeness": 0.02631578947368421
+            },
+            "2926384805": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        }
+    },
+    "5402612": {
+        "rum_count": 8,
+        "nonrum_count": 1,
+        "rumours": {
+            "999907196": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "23153001": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "2783210830": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "20457003": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "174365756": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "1193802997": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "282734379": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "26849753": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        },
+        "non_rumours": {
+            "410941069": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        }
+    },
+    "1994321": {
+        "rum_count": 5,
+        "nonrum_count": 1,
+        "rumours": {
+            "25049056": {
+                "betweeness": 0.00015698587127158556,
+                "closeness": 0.03169198533263489
+            },
+            "122294990": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "9651232": {
+                "betweeness": 0.0,
+                "closeness": 0.0291566265060241
+            },
+            "27572392": {
+                "betweeness": 0.0003401360544217687,
+                "closeness": 0.013554216867469878
+            },
+            "56680629": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        },
+        "non_rumours": {
+            "562236448": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        }
+    },
+    "2097571": {
+        "rum_count": 8,
+        "nonrum_count": 3,
+        "rumours": {
+            "33827440": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "359881870": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "468588961": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "2727678915": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "2881719169": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "2919525786": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "2848372747": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "370775638": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        },
+        "non_rumours": {
+            "2406682561": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "1243916652": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "370463360": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        }
+    },
+    "28785486": {
+        "rum_count": 4,
+        "nonrum_count": 1,
+        "rumours": {
+            "64094267": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "58104347": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "712468253": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "400434619": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        },
+        "non_rumours": {
+            "20845597": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        }
+    },
+    "3108351": {
+        "rum_count": 6,
+        "nonrum_count": 1,
+        "rumours": {
+            "2370908751": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "200641413": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "20527491": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "266554539": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "16161856": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            },
+            "150111340": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        },
+        "non_rumours": {
+            "30148992": {
+                "betweeness": 0.0,
+                "closeness": 0.0
+            }
+        }
+    }
+}
