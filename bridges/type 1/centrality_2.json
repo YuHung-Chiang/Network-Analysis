@@ -1,0 +1,74 @@
+{
+    "64643056": {
+        "rum_count": 8,
+        "nonrum_count": 2,
+        "rumours": {},
+        "non_rumours": {}
+    },
+    "1367531": {
+        "rum_count": 6,
+        "nonrum_count": 2,
+        "rumours": {},
+        "non_rumours": {}
+    },
+    "51241574": {
+        "rum_count": 5,
+        "nonrum_count": 1,
+        "rumours": {},
+        "non_rumours": {}
+    },
+    "428333": {
+        "rum_count": 6,
+        "nonrum_count": 4,
+        "rumours": {},
+        "non_rumours": {
+            "2707815410": {
+                "betweeness": 5.2328623757195185e-05,
+                "closeness": 0.02631578947368421
+            }
+        }
+    },
+    "5402612": {
+        "rum_count": 8,
+        "nonrum_count": 1,
+        "rumours": {},
+        "non_rumours": {}
+    },
+    "1994321": {
+        "rum_count": 5,
+        "nonrum_count": 1,
+        "rumours": {
+            "25049056": {
+                "betweeness": 0.00015698587127158556,
+                "closeness": 0.03169198533263489
+            },
+            "9651232": {
+                "betweeness": 0.0,
+                "closeness": 0.0291566265060241
+            },
+            "27572392": {
+                "betweeness": 0.0003401360544217687,
+                "closeness": 0.013554216867469878
+            }
+        },
+        "non_rumours": {}
+    },
+    "2097571": {
+        "rum_count": 8,
+        "nonrum_count": 3,
+        "rumours": {},
+        "non_rumours": {}
+    },
+    "28785486": {
+        "rum_count": 4,
+        "nonrum_count": 1,
+        "rumours": {},
+        "non_rumours": {}
+    },
+    "3108351": {
+        "rum_count": 6,
+        "nonrum_count": 1,
+        "rumours": {},
+        "non_rumours": {}
+    }
+}

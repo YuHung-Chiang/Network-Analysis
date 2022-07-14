@@ -1,0 +1,27 @@
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			64643056 & 8 & 2 \\
+			\hline
+			1367531 & 6 & 2 \\
+			\hline
+			51241574 & 5 & 1 \\
+			\hline
+			428333 & 6 & 4 \\
+			\hline
+			5402612 & 8 & 1 \\
+			\hline
+			1994321 & 5 & 1 \\
+			\hline
+			2097571 & 8 & 3 \\
+			\hline
+			28785486 & 4 & 1 \\
+			\hline
+			3108351 & 6 & 1 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{An example table.}
+	\label{table:example_table}
+\end{table}
