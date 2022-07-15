@@ -1,10 +1,16 @@
 import json
 import os
+import re
+
+from zmq import NULL
 
 # from numpy import source
 
 root = os. getcwd()
 thread_en = "threads/en/charliehebdo" 
+
+with open("/Users/yu-hung/Downloads/pheme-rumour-scheme-dataset/Id-conversions/tweet_to_user.json") as file:
+    tweet_to_user = json.load(file)
 
 def getPath(): return str("/".join([root,thread_en]))
 def getRoot(): return root
@@ -171,3 +177,37 @@ def gen_idConversion():
     writeToJSON(root,"user_to_tweet",user_to_tweet)
     writeToJSON(root,"tweet_to_user",tweet_to_user)
 
+def iter_structure(dic,structure,react_to,reacter):
+    # empty dict
+    if not(structure): return dic
+    
+    if react_to == NULL: 
+        react_to = list(structure.keys())[0]
+        return iter_structure(dic,structure[react_to],react_to,reacter)
+        
+    
+    for r in structure.keys():
+        try:
+            dic[tweet_to_user[react_to]].append(tweet_to_user[r])
+
+        except:
+            dic[tweet_to_user[react_to]] = []
+            dic[tweet_to_user[react_to]].append(tweet_to_user[r])
+        
+        dic = iter_structure(dic,structure[r],r,reacter)
+    
+    return dic
+        
+# Retreat who reacted by whom relations
+def who_reacted_by_whom():
+    thread_path = getPath()
+    threads = getListDir(thread_path)
+    
+    who_reacted_by_whom = {}
+    
+    for thread in threads:
+        with open(makePath([thread_path,thread,"structure.json"])) as f:
+            data = json.load(f)
+            who_reacted_by_whom = iter_structure(who_reacted_by_whom,data,NULL,NULL)
+    
+    writeToJSON(getRoot(),"who_reacted_by_whom",who_reacted_by_whom)

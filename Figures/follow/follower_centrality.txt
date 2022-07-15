@@ -1,0 +1,25 @@
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			428333 & betweeness & centrality \\
+			\hline
+			non-rumours &  &  \\
+			\hline
+			2707815410 & 5.233e-05 & 2.632e-02 \\
+			\hline
+			1994321 & betweeness & centrality \\
+			\hline
+			rumours &  &  \\
+			\hline
+			25049056 & 1.570e-04 & 3.169e-02 \\
+			\hline
+			9651232 & 0.000e+00 & 2.916e-02 \\
+			\hline
+			27572392 & 3.401e-04 & 1.355e-02 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{An example table.}
+	\label{table:example_table}
+\end{table}
