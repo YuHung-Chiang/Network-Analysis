@@ -1,141 +1,121 @@
 {
     "1367531": {
         "rumours": [
-            "181057672",
-            "223637055",
             "21622781",
-            "424455969",
-            "27345147",
+            "223637055",
             "271875446",
+            "181057672",
+            "27345147",
+            "424455969",
             "2560120714"
         ],
         "non_rumours": [
-            "22585606",
-            "1715176734"
+            "1715176734",
+            "22585606"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "212369763": {
         "rumours": [
             "2215514245"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "16973333": {
         "rumours": [
-            "18770158",
             "593253537",
             "2274722621",
-            "95191831",
-            "2461887810",
-            "253471213",
-            "268422365",
-            "127496158",
+            "18770158",
+            "1897951344",
             "54727574",
-            "1897951344"
+            "127496158",
+            "2461887810",
+            "95191831",
+            "253471213",
+            "268422365"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "64643056": {
         "rumours": [
-            "256358298",
             "1627753237",
-            "20707060",
-            "227441287",
-            "2370908751",
-            "2217457444",
-            "361135947",
+            "127836912",
             "226997507",
-            "127836912"
+            "361135947",
+            "256358298",
+            "2370908751",
+            "227441287",
+            "20707060",
+            "2217457444"
         ],
         "non_rumours": [
-            "2302890619",
-            "562236448"
+            "562236448",
+            "2302890619"
         ],
-        "bridges": [
-            "64643056"
-        ],
-        "uncategorized": []
-    },
-    "414653470": {
-        "rumours": [
-            "2370908751"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "15754281": {
         "rumours": [
-            "575857218",
             "16538186",
+            "575857218",
             "1596060386"
         ],
         "non_rumours": [
-            "473009843",
             "139238453",
+            "473009843",
             "592214012"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "32272710": {
         "rumours": [
             "404393063"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "2842650084": {
-        "rumours": [
-            "404393063"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": [
-            "32272710"
-        ]
+        "uncategorized": [],
+        "bridges": []
     },
     "25049056": {
         "rumours": [
+            "2288799413",
             "1670896333",
             "15917486",
-            "2288799413",
             "1611306366"
         ],
         "non_rumours": [],
+        "uncategorized": [],
         "bridges": [
             "1994321"
-        ],
-        "uncategorized": []
+        ]
     },
     "1670896333": {
         "rumours": [
             "1611306366"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "1994321": {
         "rumours": [
             "122294990",
             "56680629",
+            "27572392",
             "9651232",
-            "25049056",
-            "27572392"
+            "25049056"
         ],
         "non_rumours": [
             "562236448"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "87416722": {
         "rumours": [
@@ -145,98 +125,81 @@
         "non_rumours": [
             "245308008"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "9651232": {
         "rumours": [
-            "999907196",
             "122294990",
+            "999907196",
             "25049056"
         ],
         "non_rumours": [
             "562236448"
         ],
+        "uncategorized": [],
         "bridges": [
             "1994321"
-        ],
-        "uncategorized": []
+        ]
     },
     "240028072": {
         "rumours": [
             "23696709"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "5402612": {
         "rumours": [
-            "26849753",
             "1193802997",
             "20457003",
+            "26849753",
             "282734379",
-            "2783210830",
-            "174365756",
             "999907196",
-            "23153001"
+            "23153001",
+            "174365756",
+            "2783210830"
         ],
         "non_rumours": [
             "2355289178",
             "410941069"
         ],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "21886391": {
-        "rumours": [
-            "282734379",
-            "2783210830"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "7587032": {
         "rumours": [
-            "33827440",
             "54727574",
+            "33827440",
             "1911832471"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "886911072": {
-        "rumours": [],
-        "non_rumours": [
-            "987503203"
-        ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "51241574": {
         "rumours": [
-            "1061029789",
             "71277067",
-            "133353171",
-            "474309032",
             "289981406",
-            "32365573"
+            "1061029789",
+            "32365573",
+            "474309032",
+            "133353171"
         ],
         "non_rumours": [
             "34126592"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "271413771": {
         "rumours": [
             "346733298"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "14173315": {
         "rumours": [
@@ -246,126 +209,102 @@
         "non_rumours": [
             "2184465216"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "3108351": {
         "rumours": [
-            "20527491",
+            "150111340",
+            "266554539",
+            "200641413",
+            "16161856",
             "2370908751",
             "2208746299",
-            "200641413",
-            "266554539",
-            "150111340",
-            "16161856"
+            "20527491"
         ],
         "non_rumours": [
             "30148992"
         ],
-        "bridges": [],
         "uncategorized": [
             "38233752"
-        ]
-    },
-    "701094366": {
-        "rumours": [
-            "2208746299"
         ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "bridges": []
     },
     "868112707": {
         "rumours": [
-            "195059447",
-            "156357436",
-            "495085031",
-            "31882493",
-            "136773304",
-            "255180467",
-            "112463393",
-            "102579213",
-            "202568095",
-            "202740010",
-            "14809759",
             "434988195",
-            "54727574",
-            "72588786",
             "17893690",
+            "54727574",
+            "202568095",
+            "72588786",
+            "31882493",
+            "255180467",
+            "495085031",
+            "156357436",
+            "136773304",
+            "195059447",
+            "202740010",
             "174365756",
+            "14809759",
+            "102579213",
+            "112463393",
             "380648579"
         ],
         "non_rumours": [
             "34126592"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "372502604": {
         "rumours": [
             "22521283"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "742143": {
-        "rumours": [
-            "2370908751"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "174253648": {
         "rumours": [],
         "non_rumours": [
             "395255891"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "14293310": {
         "rumours": [
-            "400195162",
             "2370908751",
-            "2808218208"
+            "2808218208",
+            "400195162"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "34262462": {
         "rumours": [
-            "1653834024",
-            "42569338",
             "2461872043",
-            "2324261167"
+            "2324261167",
+            "42569338",
+            "1653834024"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "28785486": {
         "rumours": [
+            "58104347",
             "400434619",
-            "712468253",
             "64094267",
-            "58104347"
+            "712468253"
         ],
         "non_rumours": [
             "20845597"
         ],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "505322398": {
-        "rumours": [
-            "14662121"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "2461887810": {
         "rumours": [
@@ -374,140 +313,86 @@
             "16973333"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "2097571": {
         "rumours": [
-            "359881870",
-            "591948005",
-            "468588961",
-            "2881719169",
-            "2848372747",
-            "2727678915",
             "2919525786",
+            "2727678915",
+            "359881870",
+            "468588961",
+            "2848372747",
+            "2881719169",
+            "591948005",
             "33827440",
             "370775638"
         ],
         "non_rumours": [
             "1243916652",
-            "370463360",
-            "2406682561"
+            "2406682561",
+            "370463360"
         ],
+        "uncategorized": [],
         "bridges": [
             "428333"
-        ],
-        "uncategorized": []
-    },
-    "538601381": {
-        "rumours": [
-            "359881870"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        ]
     },
     "2919525786": {
         "rumours": [
             "2919525786"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "380648579": {
         "rumours": [
-            "117333411",
+            "1698582715",
             "122294990",
             "248447552",
             "413339220",
-            "1698582715",
-            "136773304",
-            "202740010",
-            "255180467",
-            "174365756",
+            "117333411",
             "868112707",
-            "495085031",
             "54727574",
-            "195059447"
+            "255180467",
+            "495085031",
+            "136773304",
+            "195059447",
+            "174365756",
+            "202740010"
         ],
         "non_rumours": [
-            "34126592",
-            "152396951"
+            "152396951",
+            "34126592"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "248447552": {
         "rumours": [
             "248447552"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "70119298": {
-        "rumours": [
-            "248447552"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "21749564": {
         "rumours": [
             "1332220207",
-            "21525006",
             "19898890",
-            "27572392"
-        ],
-        "non_rumours": [
-            "2943604810"
-        ],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "324908191": {
-        "rumours": [
-            "21749564"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "237617005": {
-        "rumours": [
+            "21525006",
             "27572392"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "2943604810": {
-        "rumours": [
-            "21749564"
-        ],
-        "non_rumours": [
-            "2943604810"
-        ],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "2230258634": {
-        "rumours": [
-            "21749564"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "262345797": {
         "rumours": [],
-        "non_rumours": [
-            "2943604810"
-        ],
-        "bridges": [],
-        "uncategorized": []
+        "non_rumours": [],
+        "uncategorized": [],
+        "bridges": []
     },
     "718294442": {
         "rumours": [
@@ -517,50 +402,18 @@
         "non_rumours": [
             "15468048"
         ],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "97464597": {
-        "rumours": [
-            "718294442"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "56473202": {
-        "rumours": [
-            "718294442"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "747822822": {
         "rumours": [
-            "54963857",
             "747822822",
-            "416161639"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "382810104": {
-        "rumours": [
-            "747822822"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "18198948": {
-        "rumours": [
+            "416161639",
             "54963857"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "87818409": {
         "rumours": [
@@ -569,222 +422,139 @@
         "non_rumours": [
             "90181058"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "16343974": {
         "rumours": [
             "182006778"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "1652541": {
         "rumours": [
-            "280529380",
-            "2389777327",
-            "2370908751",
+            "2761102197",
             "198730266",
-            "2761102197"
+            "2389777327",
+            "280529380",
+            "2370908751"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "14511951": {
         "rumours": [
             "2323975734"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "428333": {
         "rumours": [
             "370775638",
-            "23153001",
-            "14364132",
             "425927063",
+            "14364132",
+            "23153001",
             "25777686",
             "150111340",
             "2295911619",
             "253471213"
         ],
         "non_rumours": [
-            "2707815410",
             "2762702188",
             "567039350",
+            "2707815410",
             "2926384805"
-        ],
-        "bridges": [
-            "2097571"
         ],
         "uncategorized": [
             "46363353"
+        ],
+        "bridges": [
+            "2097571"
         ]
-    },
-    "22583725": {
-        "rumours": [],
-        "non_rumours": [
-            "2707815410"
-        ],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "287183523": {
-        "rumours": [],
-        "non_rumours": [
-            "567039350"
-        ],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "2153036188": {
-        "rumours": [],
-        "non_rumours": [
-            "2707815410"
-        ],
-        "bridges": [],
-        "uncategorized": []
     },
     "567039350": {
         "rumours": [],
         "non_rumours": [
-            "2707815410",
-            "2957564108"
+            "2957564108",
+            "2707815410"
         ],
-        "bridges": [],
         "uncategorized": [
             "46363353"
-        ]
+        ],
+        "bridges": []
     },
     "2707815410": {
         "rumours": [],
         "non_rumours": [
+            "2762702188",
             "567039350",
-            "2957564108",
-            "2762702188"
+            "2957564108"
         ],
-        "bridges": [],
         "uncategorized": [
             "46363353"
-        ]
+        ],
+        "bridges": []
     },
     "2957564108": {
         "rumours": [],
         "non_rumours": [
             "567039350",
-            "2707815410",
-            "2957564108"
+            "2957564108",
+            "2707815410"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "46363353": {
         "rumours": [],
         "non_rumours": [
             "567039350"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "2762702188": {
         "rumours": [],
         "non_rumours": [
-            "2707815410",
-            "2926384805"
+            "2926384805",
+            "2707815410"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "2926384805": {
         "rumours": [],
         "non_rumours": [
             "2762702188"
         ],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "76987535": {
-        "rumours": [],
-        "non_rumours": [
-            "33668152"
-        ],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "104863726": {
-        "rumours": [
-            "123217844",
-            "253471213",
-            "1897951344",
-            "127496158"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "1299769218": {
         "rumours": [
-            "2330673502",
-            "51573035"
+            "51573035",
+            "2330673502"
         ],
         "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "9554732": {
-        "rumours": [
-            "328967731"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "16513349": {
-        "rumours": [
-            "328967731"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "18580155": {
-        "rumours": [
-            "328967731"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "128750531": {
-        "rumours": [
-            "2295911619"
-        ],
-        "non_rumours": [],
-        "bridges": [],
-        "uncategorized": []
-    },
-    "103348497": {
-        "rumours": [],
-        "non_rumours": [
-            "410941069"
-        ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "15164565": {
         "rumours": [
+            "705500738",
             "256442158",
-            "75205739",
-            "705500738"
+            "75205739"
         ],
         "non_rumours": [
             "2334005558"
         ],
-        "bridges": [],
-        "uncategorized": []
+        "uncategorized": [],
+        "bridges": []
     },
     "416161639": {
         "rumours": [
@@ -803,14 +573,6 @@
         "uncategorized": [],
         "bridges": []
     },
-    "1562935142": {
-        "rumours": [
-            "413339220"
-        ],
-        "non_rumours": [],
-        "uncategorized": [],
-        "bridges": []
-    },
     "19898890": {
         "rumours": [
             "27572392"
@@ -822,6 +584,14 @@
     "1611306366": {
         "rumours": [
             "1670896333"
+        ],
+        "non_rumours": [],
+        "uncategorized": [],
+        "bridges": []
+    },
+    "1562935142": {
+        "rumours": [
+            "413339220"
         ],
         "non_rumours": [],
         "uncategorized": [],

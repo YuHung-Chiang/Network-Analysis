@@ -1,49 +1,82 @@
+from trace import Trace
 import networkx as nx
 
-def makeDiGraph(node_relations,community):
+def makeDiGraph(node_relations,communities):
     G = nx.DiGraph()
     
     for key, values in node_relations.items():
-        if key in community["rumours"]: G.add_node(key,at="rumours")
-        elif key in community["non_rumours"]:  G.add_node(key,at="non_rumours")
-        elif key in community["bridges"]: G.add_node(key,at="bridges")
-        elif key in community["uncategorized"]: G.add_node(key,at="uncategorized")
-        
-        for id in values["rumours"]:
-            G.add_node(id,at="rumours")
-            G.add_edge(id,key)
-        
-        for id in values["non_rumours"]:
-            G.add_node(id,at="non_rumours")
-            G.add_edge(id,key)
-        
-        for id in values["bridges"]:
-            G.add_node(id,at="bridges")
-            G.add_edge(id,key)
-        
-        for id in values["uncategorized"]:
-            G.add_node(id,at="uncategorized")
-            G.add_edge(id,key)
+        for id in values["rumours"]: G.add_edge(id,key)
+        for id in values["non_rumours"]: G.add_edge(id,key)
+        for id in values["bridges"]: G.add_edge(id,key)
+        for id in values["uncategorized"]: G.add_edge(id,key)
+
+    # Node attributes
+    attributes = {}
+    for community, ids in communities.items(): 
+        for id in ids: attributes[id] = community
+
+    nx.set_node_attributes(G,attributes,"at")
     
-    isolates = list(nx.isolates(G))
-    G.remove_nodes_from(isolates)
+    # Check for error
+    for x,y in G.nodes(data=True):
+        try: filt = y["at"]
+        except: print(x)
+    
     return G
 
 '''
 Input: Graph
 Output: A dictionary organized by communities with in-degree centrality appended to each node
 '''
-def indegree_centrality(G):
-    in_degree = nx.in_degree_centrality(G)
-    in_degreeDict = {
-        # "rumours" : [x for x,y in G.nodes(data=True) if y['at']=="rumour"]
-        # "non_rumours" : [x for x,y in G.nodes(data=True) if y['at']=="non_rumours"],
-        # "bridges" : [x for x,y in G.nodes(data=True) if y['at']=="bridges"],
-        # "uncategorized" : [x for x,y in G.nodes(data=True) if y['at']=="uncategorized"],
+def degree_centrality(G,type):
+    if type == "in": in_degree = nx.in_degree_centrality(G)
+    if type == "out": in_degree = nx.out_degree_centrality(G)
+
+    degreeDict = {
+        "rumours" : {},
+        "non_rumours" : {},
+        "bridges" : {},
+        "uncategorized" : {}
     }
-    # in_degreeDict["rumours"] = [x for x,y in G.nodes(data=True) if y['at']=="rumour"]
-    # in_degreeDict["non_rumours"] = [x for x,y in G.nodes(data=True) if y['at']=="non_rumours"]
-    # in_degreeDict["bridges"] = [x for x,y in G.nodes(data=True) if y['at']=="bridges"]
-    # in_degreeDict["uncategorized"] = [x for x,y in G.nodes(data=True) if y['at']=="uncategorized"]
-    print([x for x,y in G.nodes(data=True) if y['at']=="rumour"])
-    return in_degreeDict
+    for x,y in G.nodes(data=True):
+        # Only accept nodes with centrality value > 0
+        if in_degree[x] <= 0 : continue
+
+        if y["at"] == "rumours": (degreeDict["rumours"])[x] = in_degree[x]
+        elif y["at"] == "non_rumours": (degreeDict["non_rumours"])[x] = in_degree[x]
+        elif y["at"] == "bridges": (degreeDict["bridges"])[x] = in_degree[x]
+        elif y["at"] == "uncategorized": (degreeDict["uncategorized"])[x] = in_degree[x]
+    
+    # Sort each dict by in_degree centrality
+    degreeDict["rumours"]=dict(sorted(degreeDict["rumours"].items(), key=lambda item: item[1],reverse=True))
+    degreeDict["non_rumours"]=dict(sorted(degreeDict["non_rumours"].items(), key=lambda item: item[1],reverse=True))
+    degreeDict["bridges"]=dict(sorted(degreeDict["bridges"].items(), key=lambda item: item[1],reverse=True))
+    degreeDict["uncategorized"]=dict(sorted(degreeDict["uncategorized"].items(), key=lambda item: item[1],reverse=True))
+
+    return degreeDict
+
+def betweeness_centrality(G):
+    betweeness = nx.betweenness_centrality(G, k=None, normalized=True, weight=None, endpoints=False, seed=None)
+
+    betweenessDict = {
+        "rumours" : {},
+        "non_rumours" : {},
+        "bridges" : {},
+        "uncategorized" : {}
+    }
+    for x,y in G.nodes(data=True):
+        # Only accept nodes with centrality value > 0
+        if betweeness[x] <= 0 : continue
+
+        if y["at"] == "rumours": (betweenessDict["rumours"])[x] = betweeness[x]
+        elif y["at"] == "non_rumours": (betweenessDict["non_rumours"])[x] = betweeness[x]
+        elif y["at"] == "bridges": (betweenessDict["bridges"])[x] = betweeness[x]
+        elif y["at"] == "uncategorized": (betweenessDict["uncategorized"])[x] = betweeness[x]
+    
+    # Sort each dict by in_degree centrality
+    betweenessDict["rumours"]=dict(sorted(betweenessDict["rumours"].items(), key=lambda item: item[1],reverse=True))
+    betweenessDict["non_rumours"]=dict(sorted(betweenessDict["non_rumours"].items(), key=lambda item: item[1],reverse=True))
+    betweenessDict["bridges"]=dict(sorted(betweenessDict["bridges"].items(), key=lambda item: item[1],reverse=True))
+    betweenessDict["uncategorized"]=dict(sorted(betweenessDict["uncategorized"].items(), key=lambda item: item[1],reverse=True))
+
+    return betweenessDict

@@ -210,4 +210,4 @@ def who_reacted_by_whom():
             data = json.load(f)
             who_reacted_by_whom = iter_structure(who_reacted_by_whom,data,NULL,NULL)
     
-    writeToJSON(getRoot(),"who_reacted_by_whom",who_reacted_by_whom)
+    return who_reacted_by_whom
