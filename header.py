@@ -215,5 +215,71 @@ def who_reacted_by_whom():
     return who_reacted_by_whom
 
 # Return number of rumour and non-rumour followers count per bridge
+def get_follower_counts(data,dataType):
+    table = Texttable()
+    table.set_cols_align(["c", "c", "c"])
+    table.set_cols_valign(["t", "t", "t"])
+    table.set_cols_dtype(dataType)
+
+    headers = [["id","\#rumour followers","\#non-rumour followers"]]
+    entries = []
+    
+    for id, values in data.items():
+        entries.append([id,values["rum_count"],values["nonrum_count"]])
+    
+    headers.extend(entries)
+    table.add_rows(headers)
+    return latextable.draw_latex(table, caption="An example table.", label="table:example_table") 
+
+# Return all bridges with non-zero betweenness centrality
+def get_bridge_betweeness(data,dataType):
+    table = Texttable()
+    table.set_cols_align(["c", "c"])
+    table.set_cols_valign(["t", "t"])
+    table.set_cols_dtype(dataType)
+
+    headers = [["id","betweeness"]]
+    entries = []
+    
+    for id, values in data.items():
+        if values["betweeness"] > 0: entries.append([id,values["betweeness"]])
+    
+    entries = sorted(entries, key=lambda x:x[1],reverse=True)
+    headers.extend(entries)
+    table.add_rows(headers)
+    return latextable.draw_latex(table, caption="An example table.", label="table:example_table") 
+
+def get_followers_centralities(data,dataType):
+    table = Texttable()
+    table.set_cols_align(["c", "c", "c"])
+    table.set_cols_valign(["t", "t", "t"])
+    table.set_cols_dtype(dataType)
+
+    entries = []
+
+    for id, values in data.items():
+        if not(values["rumours"] or values["non_rumours"] or values["uncategorized"]): continue
+        entries.append([id,"betweenness","centrality"])        
+
+        if values["rumours"]: 
+            entries.append(["rumours","",""])
+            for follower, centralities in values["rumours"].items():
+                entries.append([follower,centralities["betweeness"],centralities["closeness"]])
+
+        if values["non_rumours"]: 
+            entries.append(["non-rumours","",""])
+            for follower, centralities in values["non_rumours"].items():
+                entries.append([follower,centralities["betweeness"],centralities["closeness"]])
+    
+        if values["uncategorized"]: 
+            entries.append(["uncategorized","",""])
+            for follower, centralities in values["uncategorized"].items(): 
+                entries.append([follower,centralities["betweeness"],""])
+                entries.append(["","rumour","non-rumour"])
+                entries.append(["",centralities["rum_closeness"],centralities["nonrum_closeness"]])
+
+    table.add_rows(entries)
+    return latextable.draw_latex(table, caption="", label="table:") 
+
 
 

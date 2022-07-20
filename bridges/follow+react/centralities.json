@@ -186,14 +186,15 @@
             "2926384805": {
                 "betweeness": 0.0,
                 "closeness": 0.06837606837606838
-            },
+            }
+        },
+        "uncategorized": {
             "46363353": {
                 "betweeness": 0.0,
                 "rum_closeness": 0.0,
                 "nonrum_closeness": 0.07183908045977012
             }
         },
-        "uncategorized": {},
         "betweeness": 0.000369780407327341
     },
     "15164565": {

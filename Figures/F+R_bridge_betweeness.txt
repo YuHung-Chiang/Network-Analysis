@@ -1,0 +1,25 @@
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|}
+			\hline
+			id & betweeness \\
+			\hline
+			1994321 & 4.551e-04 \\
+			\hline
+			21749564 & 3.698e-04 \\
+			\hline
+			428333 & 3.698e-04 \\
+			\hline
+			2097571 & 3.129e-04 \\
+			\hline
+			868112707 & 2.560e-04 \\
+			\hline
+			380648579 & 1.707e-04 \\
+			\hline
+			9651232 & 5.689e-05 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{An example table.}
+	\label{table:example_table}
+\end{table}

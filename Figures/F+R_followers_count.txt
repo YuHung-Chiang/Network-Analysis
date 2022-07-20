@@ -1,0 +1,51 @@
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			id & \#rumour followers & \#non-rumour followers \\
+			\hline
+			1367531 & 7 & 2 \\
+			\hline
+			64643056 & 9 & 2 \\
+			\hline
+			15754281 & 3 & 3 \\
+			\hline
+			1994321 & 5 & 1 \\
+			\hline
+			87416722 & 2 & 1 \\
+			\hline
+			9651232 & 3 & 1 \\
+			\hline
+			5402612 & 8 & 2 \\
+			\hline
+			51241574 & 6 & 1 \\
+			\hline
+			14173315 & 2 & 1 \\
+			\hline
+			3108351 & 7 & 1 \\
+			\hline
+			868112707 & 17 & 1 \\
+			\hline
+			28785486 & 4 & 1 \\
+			\hline
+			2097571 & 9 & 3 \\
+			\hline
+			380648579 & 13 & 2 \\
+			\hline
+			21749564 & 4 & 1 \\
+			\hline
+			2943604810 & 1 & 1 \\
+			\hline
+			718294442 & 2 & 1 \\
+			\hline
+			87818409 & 1 & 1 \\
+			\hline
+			428333 & 8 & 4 \\
+			\hline
+			15164565 & 3 & 1 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{An example table.}
+	\label{table:example_table}
+\end{table}

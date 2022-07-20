@@ -59,9 +59,9 @@ def get_centralities(bridges,betweeness,nonrum_closeness,rum_closeness,uncat_non
             except: nonrum_c = 0.0
 
             if (b > 0) or (rum_c > 0)  or (nonrum_c > 0):
-                nonrumour[id] = {} 
-                (nonrumour[id])["betweeness"] = b
-                (nonrumour[id])["rum_closeness"] = rum_c
-                (nonrumour[id])["nonrum_closeness"] = nonrum_c
+                uncat[id] = {} 
+                (uncat[id])["betweeness"] = b
+                (uncat[id])["rum_closeness"] = rum_c
+                (uncat[id])["nonrum_closeness"] = nonrum_c
         
     return centralities

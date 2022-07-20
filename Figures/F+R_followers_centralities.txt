@@ -1,0 +1,51 @@
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			1994321 & betweenness & centrality \\
+			\hline
+			rumours &  &  \\
+			\hline
+			25049056 & 2.276e-04 & 2.878e-02 \\
+			\hline
+			27572392 & 4.267e-04 & 7.194e-03 \\
+			\hline
+			9651232 & betweenness & centrality \\
+			\hline
+			rumours &  &  \\
+			\hline
+			25049056 & 2.276e-04 & 2.878e-02 \\
+			\hline
+			21749564 & betweenness & centrality \\
+			\hline
+			rumours &  &  \\
+			\hline
+			19898890 & 0.000e+00 & 7.194e-03 \\
+			\hline
+			27572392 & 4.267e-04 & 7.194e-03 \\
+			\hline
+			428333 & betweenness & centrality \\
+			\hline
+			non-rumours &  &  \\
+			\hline
+			2707815410 & 3.840e-04 & 1.231e-01 \\
+			\hline
+			2762702188 & 2.276e-04 & 1.026e-01 \\
+			\hline
+			567039350 & 1.564e-04 & 8.791e-02 \\
+			\hline
+			2926384805 & 0.000e+00 & 6.838e-02 \\
+			\hline
+			uncategorized &  &  \\
+			\hline
+			46363353 & 0.000e+00 &  \\
+			\hline
+			 & rumour & non-rumour \\
+			\hline
+			 & 0.000e+00 & 7.184e-02 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{}
+	\label{table:}
+\end{table}
