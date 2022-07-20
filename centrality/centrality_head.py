@@ -80,3 +80,29 @@ def betweeness_centrality(G):
     betweenessDict["uncategorized"]=dict(sorted(betweenessDict["uncategorized"].items(), key=lambda item: item[1],reverse=True))
 
     return betweenessDict
+
+def closeness_centrality(G):
+    closeness = nx.closeness_centrality(G)
+    closenessDict = {
+        "rumours" : {},
+        "non_rumours" : {},
+        "bridges" : {},
+        "uncategorized" : {}
+    }
+
+    for x,y in G.nodes(data=True):
+        # Only accept nodes with centrality value > 0
+        if closeness[x] <= 0 : continue
+
+        if y["at"] == "rumours": (closenessDict["rumours"])[x] = closeness[x]
+        elif y["at"] == "non_rumours": (closenessDict["non_rumours"])[x] = closeness[x]
+        elif y["at"] == "bridges": (closenessDict["bridges"])[x] = closeness[x]
+        elif y["at"] == "uncategorized": (closenessDict["uncategorized"])[x] = closeness[x]
+    
+    # Sort each dict by in_degree centrality
+    closenessDict["rumours"]=dict(sorted(closenessDict["rumours"].items(), key=lambda item: item[1],reverse=True))
+    closenessDict["non_rumours"]=dict(sorted(closenessDict["non_rumours"].items(), key=lambda item: item[1],reverse=True))
+    closenessDict["bridges"]=dict(sorted(closenessDict["bridges"].items(), key=lambda item: item[1],reverse=True))
+    closenessDict["uncategorized"]=dict(sorted(closenessDict["uncategorized"].items(), key=lambda item: item[1],reverse=True))
+
+    return closenessDict

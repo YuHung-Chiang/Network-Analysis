@@ -1,6 +1,8 @@
 import json
 import os
-import re
+from tabulate import tabulate
+from texttable import Texttable
+import latextable
 
 from zmq import NULL
 
@@ -211,3 +213,7 @@ def who_reacted_by_whom():
             who_reacted_by_whom = iter_structure(who_reacted_by_whom,data,NULL,NULL)
     
     return who_reacted_by_whom
+
+# Return number of rumour and non-rumour followers count per bridge
+
+
