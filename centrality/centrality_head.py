@@ -1,5 +1,6 @@
 from trace import Trace
 import networkx as nx
+import matplotlib.pyplot as plt
 
 def makeDiGraph(node_relations,communities):
     G = nx.DiGraph()
@@ -106,3 +107,14 @@ def closeness_centrality(G):
     closenessDict["uncategorized"]=dict(sorted(closenessDict["uncategorized"].items(), key=lambda item: item[1],reverse=True))
 
     return closenessDict
+
+def visualize(G,labels,nodeColor,nodeSize):
+    pos = nx.spring_layout(G, k=0.8)
+    nx.draw(G,pos,node_size=nodeSize,node_color=nodeColor)
+    nx.draw_networkx_labels(G,pos,labels,font_size=13,font_color="red")
+    x_values, y_values = zip(*pos.values())
+    x_max = max(x_values)
+    x_min = min(x_values)
+    x_margin = (x_max - x_min) * 0.25
+    plt.xlim(x_min - x_margin, x_max + x_margin)
+    plt.show()  
