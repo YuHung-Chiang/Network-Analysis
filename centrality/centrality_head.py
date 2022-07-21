@@ -110,7 +110,7 @@ def closeness_centrality(G):
 
 def visualize(G,labels,nodeColor,nodeSize):
     pos = nx.spring_layout(G, k=0.8)
-    nx.draw(G,pos,node_size=nodeSize,node_color=nodeColor)
+    nx.draw(G,pos,node_size=nodeSize,node_color=nodeColor,width=1.5)
     nx.draw_networkx_labels(G,pos,labels,font_size=13,font_color="red")
     x_values, y_values = zip(*pos.values())
     x_max = max(x_values)

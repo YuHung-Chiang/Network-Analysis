@@ -24,21 +24,21 @@
         "betweeness": 0.0
     },
     "1994321": {
-        "rum_count": 5,
+        "rum_count": 4,
         "nonrum_count": 1,
         "rumours": {
-            "25049056": {
-                "betweeness": 0.00022755717373990216,
-                "closeness": 0.02877697841726619
-            },
             "27572392": {
-                "betweeness": 0.0004266697007623166,
+                "betweeness": 0.0005347292581335134,
                 "closeness": 0.007194244604316547
+            },
+            "25049056": {
+                "betweeness": 0.00022514916131937407,
+                "closeness": 0.02877697841726619
             }
         },
         "non_rumours": {},
         "uncategorized": {},
-        "betweeness": 0.0004551143474798043
+        "betweeness": 0.0005065856129685916
     },
     "87416722": {
         "rum_count": 2,
@@ -53,13 +53,13 @@
         "nonrum_count": 1,
         "rumours": {
             "25049056": {
-                "betweeness": 0.00022755717373990216,
+                "betweeness": 0.00022514916131937407,
                 "closeness": 0.02877697841726619
             }
         },
         "non_rumours": {},
         "uncategorized": {},
-        "betweeness": 5.688929343497554e-05
+        "betweeness": 5.628729032984352e-05
     },
     "5402612": {
         "rum_count": 8,
@@ -94,12 +94,12 @@
         "betweeness": 0.0
     },
     "868112707": {
-        "rum_count": 17,
+        "rum_count": 16,
         "nonrum_count": 1,
         "rumours": {},
         "non_rumours": {},
         "uncategorized": {},
-        "betweeness": 0.0002560018204573899
+        "betweeness": 0.0002532928064842958
     },
     "28785486": {
         "rum_count": 4,
@@ -115,40 +115,32 @@
         "rumours": {},
         "non_rumours": {},
         "uncategorized": {},
-        "betweeness": 0.00031289111389236547
+        "betweeness": 0.00030958009681413933
     },
     "380648579": {
-        "rum_count": 13,
+        "rum_count": 12,
         "nonrum_count": 2,
         "rumours": {},
         "non_rumours": {},
         "uncategorized": {},
-        "betweeness": 0.0001706678803049266
+        "betweeness": 0.00016886187098953055
     },
     "21749564": {
         "rum_count": 4,
         "nonrum_count": 1,
         "rumours": {
-            "19898890": {
-                "betweeness": 0.0,
+            "27572392": {
+                "betweeness": 0.0005347292581335134,
                 "closeness": 0.007194244604316547
             },
-            "27572392": {
-                "betweeness": 0.0004266697007623166,
+            "19898890": {
+                "betweeness": 0.0,
                 "closeness": 0.007194244604316547
             }
         },
         "non_rumours": {},
         "uncategorized": {},
-        "betweeness": 0.000369780407327341
-    },
-    "2943604810": {
-        "rum_count": 1,
-        "nonrum_count": 1,
-        "rumours": {},
-        "non_rumours": {},
-        "uncategorized": {},
-        "betweeness": 0.0
+        "betweeness": 0.0006473038387932005
     },
     "718294442": {
         "rum_count": 2,
@@ -171,31 +163,31 @@
         "nonrum_count": 4,
         "rumours": {},
         "non_rumours": {
-            "2707815410": {
-                "betweeness": 0.0003840027306860849,
-                "closeness": 0.12307692307692308
-            },
-            "2762702188": {
-                "betweeness": 0.00022755717373990216,
-                "closeness": 0.10256410256410256
-            },
-            "567039350": {
-                "betweeness": 0.00015644555694618273,
-                "closeness": 0.08791208791208792
-            },
             "2926384805": {
                 "betweeness": 0.0,
-                "closeness": 0.06837606837606838
+                "closeness": 0.06584362139917695
+            },
+            "2762702188": {
+                "betweeness": 0.00022514916131937407,
+                "closeness": 0.09876543209876543
+            },
+            "567039350": {
+                "betweeness": 0.0002532928064842958,
+                "closeness": 0.08465608465608465
+            },
+            "2707815410": {
+                "betweeness": 0.00036586738714398286,
+                "closeness": 0.11851851851851852
             }
         },
         "uncategorized": {
             "46363353": {
                 "betweeness": 0.0,
                 "rum_closeness": 0.0,
-                "nonrum_closeness": 0.07183908045977012
+                "nonrum_closeness": 0.06944444444444445
             }
         },
-        "betweeness": 0.000369780407327341
+        "betweeness": 0.00036586738714398286
     },
     "15164565": {
         "rum_count": 3,
