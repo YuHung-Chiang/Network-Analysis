@@ -189,6 +189,8 @@ def iter_structure(dic,structure,react_to,reacter):
         
     
     for r in structure.keys():
+        if tweet_to_user[react_to] == tweet_to_user[r]: continue
+        
         try:
             dic[tweet_to_user[react_to]].append(tweet_to_user[r])
 
