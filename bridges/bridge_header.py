@@ -7,6 +7,63 @@ def getType1 (data):
 
     return data
 
+def getFollows(data,follows,communities):
+    follows = {}
+    for id in list(data):
+        follows[id] = {
+            "rumours":[],
+            "non_rumours":[],
+            "bridges":[],
+            "uncategorized":[]
+        }
+        try: followsList = follows[id]
+        except: continue
+
+        for f in followsList:
+            if f in communities["rumours"]: (follows[id])["rumours"].append(f)
+            elif f in communities["non_rumours"]: (follows[id])["non_rumours"].append(f)
+            elif f in communities["bridges"]: (follows[id])["bridges"].append(f)
+            elif f in communities["uncategorized"]: (follows[id])["uncategorized"].append(f)
+    
+    return follows
+
+def originateFrom(data,communities):
+    origin = {
+            "rumours":[],
+            "non_rumours":[],
+            "uncategorized":[]
+        }
+
+    for id in list(data):
+        if id in communities["rumours"]: origin["rumours"].append(id)
+        elif id in communities["non_rumours"]: origin["non_rumours"].append(id)
+        elif id in communities["uncategorized"]: origin["uncategorized"].append(id)
+    
+    return origin
+
+def tweets_type(data,tweets_types):
+    types = {}
+    for id in list(data):
+        types[id] = {}
+        if id in (tweets_types["Source_Tweets"].keys()): 
+            (types[id])["Source_Tweets"] = (tweets_types["Source_Tweets"])[id]
+        else: (types[id])["Source_Tweets"] = 0
+
+        if id in (tweets_types["Reply_Tweets"].keys()): 
+            (types[id])["Reply_Tweets"] = (tweets_types["Reply_Tweets"])[id]
+        else: (types[id])["Reply_Tweets"] = 0
+    
+    return types
+
+# def getType2 (data,follow_relation,communities):
+#     for id, values in data.items():
+#         # XOR operation
+#         if (len(values["rumours"])) > 0 ^ (len(values["non_rumours"]) > 0):
+#             if len(values["rumours"]) > 0:
+
+
+#     return data
+
 def get_centralities(bridges,betweeness,nonrum_closeness,rum_closeness,uncat_nonrum_closeness,uncat_rum_closeness):
     centralities = {}
 
