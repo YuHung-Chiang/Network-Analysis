@@ -32,6 +32,10 @@ def writeToJSON(path,fileName,data):
     with open(makePath([path,fileName+'.json']), 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
+def writeToTxt(path,fileName,data):
+    with open(makePath([path,fileName]), 'w') as f:
+        f.write(data)
+
 # Get the number of rumour and non-rumour source tweets 
 def count():
     path = getPath()
@@ -189,6 +193,7 @@ def iter_structure(dic,structure,react_to,reacter):
         
     
     for r in structure.keys():
+        # removes self-loops
         if tweet_to_user[react_to] == tweet_to_user[r]: continue
         
         try:
@@ -283,5 +288,13 @@ def get_followers_centralities(data,dataType):
     table.add_rows(entries)
     return latextable.draw_latex(table, caption="", label="table:") 
 
+def makeTable(cols_align,cols_valign,cols_dtype,data):
+    table = Texttable()
+    table.set_cols_align(cols_align)
+    table.set_cols_valign(cols_valign)
+    table.set_cols_dtype(cols_dtype)
+    
+    table.add_rows(data)
+    return latextable.draw_latex(table, caption="", label="") 
 
 

@@ -1,0 +1,29 @@
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			id & \# source tweet & \# reply tweet \\
+			\hline
+			64643056 & 6 & 0 \\
+			\hline
+			1367531 & 2 & 0 \\
+			\hline
+			51241574 & 2 & 0 \\
+			\hline
+			428333 & 2 & 0 \\
+			\hline
+			5402612 & 2 & 0 \\
+			\hline
+			1994321 & 2 & 0 \\
+			\hline
+			2097571 & 3 & 0 \\
+			\hline
+			28785486 & 2 & 0 \\
+			\hline
+			3108351 & 2 & 0 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{}
+	\label{}
+\end{table}

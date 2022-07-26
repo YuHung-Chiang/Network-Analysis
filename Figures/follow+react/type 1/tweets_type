@@ -1,0 +1,49 @@
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			id & \# source tweet & \# reply tweet \\
+			\hline
+			1367531 & 2 & 0 \\
+			\hline
+			64643056 & 6 & 0 \\
+			\hline
+			15754281 & 1 & 0 \\
+			\hline
+			1994321 & 2 & 0 \\
+			\hline
+			87416722 & 3 & 0 \\
+			\hline
+			9651232 & 1 & 0 \\
+			\hline
+			5402612 & 2 & 0 \\
+			\hline
+			51241574 & 2 & 0 \\
+			\hline
+			14173315 & 3 & 0 \\
+			\hline
+			3108351 & 2 & 0 \\
+			\hline
+			868112707 & 3 & 0 \\
+			\hline
+			28785486 & 2 & 0 \\
+			\hline
+			2097571 & 3 & 0 \\
+			\hline
+			380648579 & 3 & 0 \\
+			\hline
+			21749564 & 1 & 1 \\
+			\hline
+			718294442 & 1 & 0 \\
+			\hline
+			87818409 & 1 & 0 \\
+			\hline
+			428333 & 2 & 0 \\
+			\hline
+			15164565 & 1 & 0 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{}
+	\label{}
+\end{table}

@@ -1,0 +1,19 @@
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			id &  &  &  &  \\
+			\hline
+			1367531 & 64643056 & 15754281 & 1994321 & 87416722 \\
+			\hline
+			9651232 & 5402612 & 51241574 & 14173315 & 3108351 \\
+			\hline
+			868112707 & 28785486 & 2097571 & 380648579 & 21749564 \\
+			\hline
+			718294442 & 87818409 & 428333 & 15164565 &  \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{}
+	\label{}
+\end{table}
