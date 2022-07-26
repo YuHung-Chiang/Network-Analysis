@@ -55,14 +55,34 @@ def tweets_type(data,tweets_types):
     
     return types
 
-# def getType2 (data,follow_relation,communities):
-#     for id, values in data.items():
-#         # XOR operation
-#         if (len(values["rumours"])) > 0 ^ (len(values["non_rumours"]) > 0):
-#             if len(values["rumours"]) > 0:
+def getType2 (data,follow_relation,communities):
+    for id in list(data):
+        values = data[id]
+        # XOR operation
+        if (len(values["rumours"]) > 0) ^ (len(values["non_rumours"]) > 0):
+            try: follows = follow_relation[id]
+            except: 
+                data.pop(id)
+                continue
+            
+            if len(values["rumours"]) > 0:
+                if not len(set(follows).intersection(set(communities["non_rumours"]))): data.pop(id)
+            
+            else: 
+                if not len(set(follows).intersection(set(communities["rumours"]))): data.pop(id)
+        
+        else: data.pop(id)
 
 
-#     return data
+    return data
+
+def getType3(data, communities):
+    type3 = {}
+    for id, values in data.items():
+        if id in communities["uncategorized"]:
+            type3[id] = values
+    
+    return type3
 
 def get_centralities(bridges,betweeness,nonrum_closeness,rum_closeness,uncat_nonrum_closeness,uncat_rum_closeness):
     centralities = {}
