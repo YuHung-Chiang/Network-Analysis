@@ -1,0 +1,49 @@
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|}
+			\hline
+			id & # reachable non-rumour nodes \\
+			\hline
+			2097571 & 8 \\
+			\hline
+			428333 & 8 \\
+			\hline
+			15754281 & 3 \\
+			\hline
+			1367531 & 2 \\
+			\hline
+			64643056 & 2 \\
+			\hline
+			5402612 & 2 \\
+			\hline
+			868112707 & 2 \\
+			\hline
+			380648579 & 2 \\
+			\hline
+			1994321 & 1 \\
+			\hline
+			9651232 & 1 \\
+			\hline
+			87416722 & 1 \\
+			\hline
+			51241574 & 1 \\
+			\hline
+			14173315 & 1 \\
+			\hline
+			3108351 & 1 \\
+			\hline
+			28785486 & 1 \\
+			\hline
+			21749564 & 1 \\
+			\hline
+			718294442 & 1 \\
+			\hline
+			87818409 & 1 \\
+			\hline
+			15164565 & 1 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{}
+	\label{}
+\end{table}

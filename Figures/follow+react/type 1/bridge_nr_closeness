@@ -1,0 +1,49 @@
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|}
+			\hline
+			id & closeness centrality \\
+			\hline
+			428333 & 1.355e-01 \\
+			\hline
+			2097571 & 1.174e-01 \\
+			\hline
+			380648579 & 6.522e-02 \\
+			\hline
+			15754281 & 6.522e-02 \\
+			\hline
+			868112707 & 4.891e-02 \\
+			\hline
+			1367531 & 4.348e-02 \\
+			\hline
+			5402612 & 4.348e-02 \\
+			\hline
+			9651232 & 4.348e-02 \\
+			\hline
+			64643056 & 4.348e-02 \\
+			\hline
+			1994321 & 4.348e-02 \\
+			\hline
+			21749564 & 2.174e-02 \\
+			\hline
+			51241574 & 2.174e-02 \\
+			\hline
+			87416722 & 2.174e-02 \\
+			\hline
+			15164565 & 2.174e-02 \\
+			\hline
+			718294442 & 2.174e-02 \\
+			\hline
+			14173315 & 2.174e-02 \\
+			\hline
+			28785486 & 2.174e-02 \\
+			\hline
+			3108351 & 2.174e-02 \\
+			\hline
+			87818409 & 2.174e-02 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{}
+	\label{}
+\end{table}

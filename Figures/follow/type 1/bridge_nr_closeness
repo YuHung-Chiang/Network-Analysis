@@ -1,0 +1,29 @@
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|}
+			\hline
+			id & # nodes from non-rumours \\
+			\hline
+			428333 & 1.640e-01 \\
+			\hline
+			2097571 & 1.421e-01 \\
+			\hline
+			64643056 & 5.263e-02 \\
+			\hline
+			1367531 & 5.263e-02 \\
+			\hline
+			51241574 & 2.632e-02 \\
+			\hline
+			5402612 & 2.632e-02 \\
+			\hline
+			1994321 & 2.632e-02 \\
+			\hline
+			28785486 & 2.632e-02 \\
+			\hline
+			3108351 & 2.632e-02 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{}
+	\label{}
+\end{table}
