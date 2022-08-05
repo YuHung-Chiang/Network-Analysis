@@ -108,13 +108,14 @@ def closeness_centrality(G):
 
     return closenessDict
 
-def visualize(G,labels,nodeColor,nodeSize):
-    pos = nx.spring_layout(G, k=0.8)
+def visualize(G,pos,labels,nodeColor,nodeSize,vertAlign,horAlign):
+    if pos == None: pos = nx.spring_layout(G, k=0.8)
+    
     nx.draw(G,pos,node_size=nodeSize,node_color=nodeColor,width=1.5)
-    nx.draw_networkx_labels(G,pos,labels,font_size=13,font_color="red")
+    nx.draw_networkx_labels(G,pos,labels,font_size=13,font_color="red",verticalalignment=vertAlign,horizontalalignment=horAlign)
     x_values, y_values = zip(*pos.values())
     x_max = max(x_values)
     x_min = min(x_values)
     x_margin = (x_max - x_min) * 0.25
     plt.xlim(x_min - x_margin, x_max + x_margin)
-    plt.show()  
+    # plt.show()  
