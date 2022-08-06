@@ -119,3 +119,12 @@ def visualize(G,pos,labels,nodeColor,nodeSize,vertAlign,horAlign):
     x_margin = (x_max - x_min) * 0.25
     plt.xlim(x_min - x_margin, x_max + x_margin)
     # plt.show()  
+
+def HITS(G,k):
+    h,a = nx.hits(G,max_iter=k,tol=1e-08,nstart=None,normalized=True)
+    h = dict(sorted(h.items(), key=lambda item: item[1],reverse=True))
+    a = dict(sorted(a.items(), key=lambda item: item[1],reverse=True))
+
+    return (h,a)
+
+        
