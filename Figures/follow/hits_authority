@@ -1,0 +1,61 @@
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			id & authority value & community \\
+			\hline
+			428333 & bridges & 0.28184823697421596 \\
+			\hline
+			2097571 & bridges & 0.1746931849680217 \\
+			\hline
+			380648579 & rumours & 0.1613264662138451 \\
+			\hline
+			16973333 & rumours & 0.12564196486482224 \\
+			\hline
+			5402612 & bridges & 0.09606270087391744 \\
+			\hline
+			3108351 & bridges & 0.058333275181264535 \\
+			\hline
+			64643056 & bridges & 0.028118196551225674 \\
+			\hline
+			1994321 & bridges & 0.025787745135415364 \\
+			\hline
+			1562935142 & rumours & 0.012790095784452697 \\
+			\hline
+			2461887810 & rumours & 0.010818715716039396 \\
+			\hline
+			1652541 & rumours & 0.010036869545432663 \\
+			\hline
+			14173315 & rumours & 0.007444120258014972 \\
+			\hline
+			21749564 & rumours & 0.002413035849648728 \\
+			\hline
+			9651232 & rumours & 0.0022386809547449292 \\
+			\hline
+			19898890 & rumours & 0.00223578126057278 \\
+			\hline
+			25049056 & rumours & 0.0002109298683658983 \\
+			\hline
+			51241574 & bridges & 2.4104282825430948e-17 \\
+			\hline
+			2707815410 & non_rumours & 4.232902725806702e-18 \\
+			\hline
+			15754281 & rumours & 3.1284997656796294e-18 \\
+			\hline
+			27572392 & rumours & 2.553461625793705e-18 \\
+			\hline
+			87818409 & rumours & 2.3415907024382258e-18 \\
+			\hline
+			14511951 & rumours & 2.2919336573454396e-18 \\
+			\hline
+			1367531 & bridges & 1.7082753718689988e-18 \\
+			\hline
+			21525006 & rumours & 7.846743456584714e-19 \\
+			\hline
+			1299769218 & rumours & 5.744663241174758e-19 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{}
+	\label{}
+\end{table}

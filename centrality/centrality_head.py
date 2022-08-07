@@ -122,7 +122,10 @@ def visualize(G,pos,labels,nodeColor,nodeSize,vertAlign,horAlign):
 
 def HITS(G,k):
     h,a = nx.hits(G,max_iter=k,tol=1e-08,nstart=None,normalized=True)
+    h = {k:v for k,v in h.items() if v>0.0}
     h = dict(sorted(h.items(), key=lambda item: item[1],reverse=True))
+    
+    a = {k:v for k,v in a.items() if v>0.0}
     a = dict(sorted(a.items(), key=lambda item: item[1],reverse=True))
 
     return (h,a)

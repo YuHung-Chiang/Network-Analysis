@@ -1,0 +1,32 @@
+\begin{table}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			id & hub value & community \\
+			\hline
+			34126592 & non_rumours & 0.0647929210292091 \\
+			\hline
+			54727574 & rumours & 0.056962974930514866 \\
+			\hline
+			195059447 & rumours & 0.05323675433539235 \\
+			\hline
+			112463393 & rumours & 0.05323675433539235 \\
+			\hline
+			14809759 & rumours & 0.05323675433539235 \\
+			\hline
+			72588786 & rumours & 0.05323675433539235 \\
+			\hline
+			174365756 & rumours & 0.05323675433539235 \\
+			\hline
+			156357436 & rumours & 0.05323675433539235 \\
+			\hline
+			202740010 & rumours & 0.05323675433539235 \\
+			\hline
+			434988195 & rumours & 0.05323675433539235 \\
+			\hline
+			
+		\end{tabular}
+	\end{center}
+	\caption{}
+	\label{}
+\end{table}
