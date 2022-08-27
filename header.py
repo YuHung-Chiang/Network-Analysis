@@ -100,7 +100,14 @@ def is_follower_react(followingRelate):
 
     writeToJSON(root,"org_reactions",dic)
 
-def extract_annotations(event,path):
+''' Extracting annotations that belong to Charlie Hebdo event
+param:
+    event: name of the event
+    path: path of the annotation file
+
+returns: a json file will be created and saved in the root directory
+'''
+def extract_annotations(event, path):
     dic = {}
     filt_annot = []
     with open(path) as annots:
@@ -115,6 +122,12 @@ def extract_annotations(event,path):
 
     writeToJSON(root,"filtered_annotations",dic)
 
+''' Organize the annotations based on conversation. Annotations for the same conversation will share the same source tweet id
+param:
+    annots : a dictionary containing all annotations from an event.
+
+returns: a dictionary will be saved in the root directory
+'''
 def org_annotations(annots):
     sources = annots["Source Tweets"]
     direct_rep = annots["Direct Replies"]

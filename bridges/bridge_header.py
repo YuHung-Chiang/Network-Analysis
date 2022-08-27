@@ -1,3 +1,10 @@
+''' Get type 1 bridges
+param:
+    data: a JSON file of user_followed_by 
+
+returns:
+    data: a filtered version of input with only type 1 bridges
+'''
 def getType1 (data):
     for d in list(data):
         if len((data[d])["rumours"])>0 and len((data[d])["non_rumours"])>0:
@@ -7,6 +14,13 @@ def getType1 (data):
 
     return data
 
+''' Get who are connected by a user 
+param:
+    data: JSON with user id as key value
+    follows: JSON file with following or reacting relation
+    communities: JSON file that stores community information
+returns: A JSON file that shows who are connected by a user, and to which communities they belong to
+'''
 def getFollows(data,follows,communities):
     follows = {}
     for id in list(data):
@@ -27,6 +41,12 @@ def getFollows(data,follows,communities):
     
     return follows
 
+''' To see which community a user originates from
+param: 
+    data: JSON file with user ids as key values
+    communities: JSON file with communities information
+returns: A JSON file that show which community a user originates
+'''
 def originateFrom(data,communities):
     origin = {
             "rumours":[],

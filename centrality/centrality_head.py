@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 
 def makeDiGraph(node_relations,communities):
     G = nx.DiGraph()
-    
     for key, values in node_relations.items():
         for id in values["rumours"]: G.add_edge(id,key)
         for id in values["non_rumours"]: G.add_edge(id,key)
@@ -13,10 +12,22 @@ def makeDiGraph(node_relations,communities):
 
     # Node attributes
     attributes = {}
-    for community, ids in communities.items(): 
-        for id in ids: attributes[id] = community
+    colors = {
+        "rumours": 'red',
+        "non_rumours": 'green',
+        "uncategorized": 'yellow',
+        "bridges": 'steelblue'
+        # "#1f78b4"
+    }
 
-    nx.set_node_attributes(G,attributes,"at")
+    for community, ids in communities.items(): 
+        for id in ids:
+             attributes[id] = {
+                "at" : community,
+                "color" : colors[community]
+             }
+
+    nx.set_node_attributes(G,attributes)
     
     # Check for error
     for x,y in G.nodes(data=True):
