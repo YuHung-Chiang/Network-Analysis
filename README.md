@@ -1,55 +1,17 @@
-======================================
-PHEME dataset of social media rumours:
+# How do rumour and non-rumour travel beyond their echo chamber?
+Author: Yu-Hung, Chiang  
+Code Language: Python 3
 
-Journalism use case
-======================================
+The codes were written in conjunction with my bachelor thesis at the University of Groningen. The following are descriptions and notices on implementing and interpreting my code.
 
-This directory contains the PHEME rumour dataset collected and annotated within the journalism use case of the project. These rumours are associated with 9 different breaking news. It was created for the analysis of social media rumours, and contains Twitter conversations which are initiated by a rumourous tweet; the conversations include tweets responding to those rumourous tweets. These tweets have been annotated for support, certainty, and evidentiality.
 
-The code we used for the collection of conversations from Twitter is available on GitHub: https://github.com/azubiaga/pheme-twitter-conversation-collection
+## General Structure
+The codes are built directly upon the PHEME data-set itself(https://figshare.com/articles/dataset/PHEME_rumour_scheme_dataset_journalism_use_case/2068650). Therefore, all the original data can be found in their original directories. 
 
-Please, refer to the papers below for further details on the datasets.
+Each directory contains a header file and a Jupyter Notebook file. The header file contains functions that are applied in the Jupyter Notebook. Above each function has code annotations that describe the purpose of the function and its inputs and outputs. The process of analysis is documented in each Jupyter Notebook. Descriptions are either above the code block or commented within the code block itself. 
 
-Data Structure
-==============
+The main Jupyter Notebook file and header file that resides at the root of this directory are mostly for data preprocessing. Other analyses, such as bridge identification and centrality analysis, are organized into their corresponding folders. Figures folder contains all images that are generated during my research process. 
 
-The dataset contains 330 conversational threads (297 in English, and 33 in German), with a folder for each thread, and structured as follows:
+## Side Notes
+All types of input graphs are based on the graph type defined by NetworkX. It is recommended to read into NetworkX graph visualization algorithms for a better understanding of the graph construction and other possible methods of graph visualization. For the Latex table generator, I used an extended library from texttable (https://pypi.org/project/texttable/).
 
- * source-tweets: This folder contains a json file with the source tweet.
-
- * reactions: This folder contains the json files for all the tweets that participated in the conversations by replying.
-
- * url-content: This folder contains the content of the web pages pointed to from the tweets.
-
- * structure.json: This file provides the structure of the conversation, making it easier to determine what each tweets children tweets are and to reconstruct the conversations by putting together the source tweet and the replies.
-
- * retweets.json: This file contains the tweets that retweeted the source tweet.
-
- * who-follows-whom.dat: This file contains the users, within the thread, who are following someone else. Each row contains two IDs, representing that the user with the first ID follows the user with the second ID. Note that following is not reciprocal, and therefore if two users mutually follow each other it'll be represented in two rows, A B and B A.
-
- * annotation.json: This files includes the manual annotations at the thread level, which is especially useful for rumours, and contains the following fields:
-  ** is_rumour: which is rumour or non-rumour.
-  ** category: which is the title that describes the rumourous story, and can be used to group with other rumours within the same story.
-  ** misinformation: 0 or 1. It determines if the story was later proven false, in which case is set to 1, and otherwise is set to 0.
-  ** true: 0 or 1. It determines if the story was later confirmed to be true, in which case is set to 1, and otherwise is set to 0.
-  ** is_turnaround: 0 or 1. A thread is marked as a turnaround if it represents a shift in the rumourous story, either by confirming in the case of a true story, or debunking in the case of a false story.
-  ** links: when available, this contains a list of links that covered the rumourous story, which includes the URL of the link, the type of media (social media, news media or blog), and whether it is positioned against, for or observing the rumour.
-
-Annotations
-===========
-
-The annotations performed at the tweet level for the 4,842 tweets within these 330 conversations can be found in two files:
- * annotations/en-scheme-annotations.json (for the English threads)
- * annotations/de-scheme-annotations.json (for the German threads)
-
-Each line contains a tweet, with its event, threadid and tweetid identifiers, as well as the annotations for support, certainty, and evidentiality.
-
-Annotation process and references:
-==================================
-
-For more details on the annotation process, please refer to the following papers (please, consider citing them if you make use of this dataset for your research):
-
- * Arkaitz Zubiaga, Maria Liakata, Rob Procter, Kalina Bontcheva, Peter Tolmie. Crowdsourcing the Annotation of Rumourous Conversations in Social Media. WWW Companion. 2015.
-   http://www.zubiaga.org/publications/files/www2015-crowdsourcing.pdf
-
- * Arkaitz Zubiaga, Maria Liakata, Rob Procter, Geraldine Wong Sak Hoi, Peter Tolmie. Analysing How People Orient to and Spread Rumours in Social Media by Looking at Conversational Threads. PLoS ONE 11(3): e0150989. 2016. http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0150989
