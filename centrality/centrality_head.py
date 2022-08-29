@@ -2,6 +2,12 @@ from trace import Trace
 import networkx as nx
 import matplotlib.pyplot as plt
 
+''' Constructing directed graph
+param:
+    node_relations: a JSON file that documents node relations
+    communities: a JSON file that show which community a user belongs to
+returns: a directed graph
+'''
 def makeDiGraph(node_relations,communities):
     G = nx.DiGraph()
     for key, values in node_relations.items():
@@ -36,9 +42,12 @@ def makeDiGraph(node_relations,communities):
     
     return G
 
-'''
-Input: Graph
-Output: A dictionary organized by communities with in-degree centrality appended to each node
+''' Calculate degree centrality 
+param:
+    G: a directed graph
+    type: a string either as "in" or "out". "in" will calculate the degree centrality based on in-degree. 
+        "out" will calculate the degree centrality based on out-degree.
+returns: a dictionary organized by communities with in-degree centrality appended to each node
 '''
 def degree_centrality(G,type):
     if type == "in": in_degree = nx.in_degree_centrality(G)
@@ -67,6 +76,11 @@ def degree_centrality(G,type):
 
     return degreeDict
 
+''' Calculate betweenness centrality
+param: 
+    G: a directed graph
+returns: a JSON file that documents each user's betweenness centrality
+'''
 def betweeness_centrality(G):
     betweeness = nx.betweenness_centrality(G, k=None, normalized=True, weight=None, endpoints=False, seed=None)
 
@@ -93,6 +107,11 @@ def betweeness_centrality(G):
 
     return betweenessDict
 
+''' Calculate closeness centrality
+param: 
+    G: a directed graph
+returns: a JSON file that documents each user's closeness centrality
+'''
 def closeness_centrality(G):
     closeness = nx.closeness_centrality(G)
     closenessDict = {
@@ -119,6 +138,15 @@ def closeness_centrality(G):
 
     return closenessDict
 
+''' A standardize graph visualization function. A more detailed descriptions on graph visualization can be found at https://networkx.org/documentation/stable/reference/generated/networkx.drawing.nx_pylab.draw_networkx.html.
+param:
+    G: a directed graphs
+    labels: labels of each node
+    nodeColor: node color 
+    nodeSize: node size
+    vertAlign: vertical alignment of labels
+    horAlign: horizontal alignment of labels
+'''
 def visualize(G,pos,labels,nodeColor,nodeSize,vertAlign,horAlign):
     if pos == None: pos = nx.spring_layout(G, k=0.8)
     
@@ -131,6 +159,12 @@ def visualize(G,pos,labels,nodeColor,nodeSize,vertAlign,horAlign):
     plt.xlim(x_min - x_margin, x_max + x_margin)
     # plt.show()  
 
+''' Calculate hub and authority values based on HITS algorithm. The results are sorted by descending manner. 
+param: 
+    G: a directed graph
+    k: max_iteration of calculation
+returns: a two-tuple of dictionaries
+'''
 def HITS(G,k):
     h,a = nx.hits(G,max_iter=k,tol=1e-08,nstart=None,normalized=True)
     h = {k:v for k,v in h.items() if v>0.0}

@@ -53,13 +53,3 @@ For more details on the annotation process, please refer to the following papers
    http://www.zubiaga.org/publications/files/www2015-crowdsourcing.pdf
 
  * Arkaitz Zubiaga, Maria Liakata, Rob Procter, Geraldine Wong Sak Hoi, Peter Tolmie. Analysing How People Orient to and Spread Rumours in Social Media by Looking at Conversational Threads. PLoS ONE 11(3): e0150989. 2016. http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0150989
-
-Acknowledgment:
-===============
-
-The development of this dataset has been supported by the PHEME FP7 project (grant No. 611233).
-
-Contact:
-========
-
-If you encounter any problems while using this dataset or having any questions, feel free to email me: a.zubiaga@warwick.ac.uk

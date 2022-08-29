@@ -61,6 +61,12 @@ def originateFrom(data,communities):
     
     return origin
 
+''' Calculate the amount of source and reply tweets a user tweeted
+param:
+    data: a JSON file with user ids as key values
+    tweets_types: a JSON file the stores information on the amount of source and reply tweets a user tweeted
+returns: a JSON file 
+'''
 def tweets_type(data,tweets_types):
     types = {}
     for id in list(data):
@@ -75,6 +81,13 @@ def tweets_type(data,tweets_types):
     
     return types
 
+''' Get type 2 user ids
+param:
+    data: a JSON file with user ids as key values
+    follow_relation: a JSON that organizes the origin of each follower a user has
+    communities: a JSON file with communities information
+return: a filtered JSON file from input 'data' with only type 2 bridges
+'''
 def getType2 (data,follow_relation,communities):
     for id in list(data):
         values = data[id]
@@ -96,6 +109,12 @@ def getType2 (data,follow_relation,communities):
 
     return data
 
+''' Get type 3 user ids
+param:
+    data: a JSON file with user ids as key values with information on those who reacted or follow a user
+    communities: a JSON file with communities information
+return: a filtered JSON file from input 'data' with only type 3 bridges
+'''
 def getType3(data, communities):
     type3 = {}
     for id, values in data.items():
@@ -104,6 +123,15 @@ def getType3(data, communities):
     
     return type3
 
+''' Merging all results of centrality analyses for each user
+param: 
+    bridges: a JSON file with user ids as key values
+    betweeness: a JSON file with users' betweenness centrality values
+    nonrum_closeness: a JSON file with non-rumour users' closeness centrality with the non-rumour community
+    rum_closeness: a JSON file with rumour users' closeness centrality with the rumour community
+    uncat_nonrum_closeness: a JSON file with uncategorized users' closeness centrality with the non-rumour community
+    uncat_rum_closeness: a JSON file with uncategorized users' closeness centrality with the rumour community
+    '''
 def get_centralities(bridges,betweeness,nonrum_closeness,rum_closeness,uncat_nonrum_closeness,uncat_rum_closeness):
     centralities = {}
 

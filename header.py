@@ -6,8 +6,6 @@ import latextable
 
 from zmq import NULL
 
-# from numpy import source
-
 root = os. getcwd()
 thread_en = "threads/en/charliehebdo" 
 
@@ -17,26 +15,52 @@ with open("/Users/yu-hung/Downloads/pheme-rumour-scheme-dataset/Id-conversions/t
 def getPath(): return str("/".join([root,thread_en]))
 def getRoot(): return root
 
+''' make a path with valid format
+param: a list of string 
+return: a string by joining the list of string with '/'
+'''
 def makePath(arr) : return "/".join(arr)
 
+''' Filter out .ds_store
+param:
+    data: a list of file names
+returns: a filtered list
+'''
 def filtDir(data): 
     listdir = filter(lambda fname: not fname.startswith("."), data)
     return list(listdir)
 
+''' Get a list of directories within a path
+param:
+    path: a string representing the targeting path
+return: a list containing all subsequent directories names
+'''
 def getListDir(path):
     sources = os.listdir(path)
     sources = filtDir(sources)
     return sources
 
+''' Export dictionary into JSON file
+param:
+    path: a string with target path of the directory that the file should be written to
+    fileName: the name of the JSON file in string format
+    data: the dictionary
+'''
 def writeToJSON(path,fileName,data):
     with open(makePath([path,fileName+'.json']), 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
+''' Export dictionary into Txt file
+param:
+    path: a string with target path of the directory that the file should be written to
+    fileName: the name of the Txt file in string format
+    data: the content of Txt file
+'''
 def writeToTxt(path,fileName,data):
     with open(makePath([path,fileName]), 'w') as f:
         f.write(data)
 
-# Get the number of rumour and non-rumour source tweets 
+''' Get the number of rumour and non-rumour source tweets '''
 def count():
     path = getPath()
     sources = getListDir(path)
@@ -52,7 +76,7 @@ def count():
             if(type == "rumour"): r+=1
             if(type == "non-rumour"): nr+=1
 
-# convert and merge all following relations into one JSON file
+''' convert and merge all following relations into one JSON file '''
 def followRelate():
     path = getPath()
     src = getListDir(path)
@@ -70,35 +94,6 @@ def followRelate():
                     ids[follower] = [followee]
 
     writeToJSON(root,"relateIds",ids)    
-
-def is_follower_react(followingRelate):
-    path = getPath()
-    src = getListDir(path)
-
-    dic = {}
-    for s in src:
-        reactPath = makePath([path,s,"reactions"])
-        reacts = getListDir(reactPath)
-
-        for r in reacts:
-            with open(makePath([reactPath,r])) as f:
-                data = json.load(f)
-                # the person who reacted
-                followerId = (data["user"])["id_str"] 
-                # the person being responded
-                followeeId = data['in_reply_to_user_id_str']
-
-            try: 
-                followees = followingRelate[followerId]
-                # if not(followeeId in followees):
-                try:
-                    dic[s].append(data["id_str"])
-                except:
-                    dic[s] = [data["id_str"]]
-            except:
-                continue
-
-    writeToJSON(root,"org_reactions",dic)
 
 ''' Extracting annotations that belong to Charlie Hebdo event
 param:
@@ -154,6 +149,7 @@ def org_annotations(annots):
     
     writeToJSON(root,"organized_annotations",dic)
 
+''' Generate dictionary for id converstions, from tweet id to user id and vice versa'''
 def gen_idConversion():
     tweet_to_user = {}
     user_to_tweet = {}
@@ -196,6 +192,7 @@ def gen_idConversion():
     writeToJSON(root,"user_to_tweet",user_to_tweet)
     writeToJSON(root,"tweet_to_user",tweet_to_user)
 
+''' A recursive function referenced by function 'who_reacted_by_whom' that trace the conversational structure'''
 def iter_structure(dic,structure,react_to,reacter):
     # empty dict
     if not(structure): return dic
@@ -220,7 +217,8 @@ def iter_structure(dic,structure,react_to,reacter):
     
     return dic
         
-# Retreat who reacted by whom relations
+''' Retreat who reacted by whom relations 
+returns: a dictionary '''
 def who_reacted_by_whom():
     thread_path = getPath()
     threads = getListDir(thread_path)
@@ -234,7 +232,12 @@ def who_reacted_by_whom():
     
     return who_reacted_by_whom
 
-# Return number of rumour and non-rumour followers count per bridge
+''' Return number of rumour and non-rumour followers count per bridge in latex table format
+param:
+    data: the entries of the table
+    datatype: a list specifying the datatype of each row
+return: a latex table with entries corresponding to its datatype
+'''
 def get_follower_counts(data,dataType):
     table = Texttable()
     table.set_cols_align(["c", "c", "c"])
@@ -251,7 +254,12 @@ def get_follower_counts(data,dataType):
     table.add_rows(headers)
     return latextable.draw_latex(table, caption="An example table.", label="table:example_table") 
 
-# Return all bridges with non-zero betweenness centrality
+''' Return all bridges with non-zero betweenness centrality in latex table format
+param:
+    data: the entries of the table
+    datatype: a list specifying the datatype of each row
+return: a latex table with entries corresponding to its datatype
+'''
 def get_bridge_betweeness(data,dataType):
     table = Texttable()
     table.set_cols_align(["c", "c"])
@@ -269,6 +277,12 @@ def get_bridge_betweeness(data,dataType):
     table.add_rows(headers)
     return latextable.draw_latex(table, caption="An example table.", label="table:example_table") 
 
+''' Return centralities of followers of each user
+param:
+    data: the entries of the table
+    datatype: a list specifying the datatype of each row
+return: a latex table with entries corresponding to its datatype
+'''
 def get_followers_centralities(data,dataType):
     table = Texttable()
     table.set_cols_align(["c", "c", "c"])
@@ -301,6 +315,14 @@ def get_followers_centralities(data,dataType):
     table.add_rows(entries)
     return latextable.draw_latex(table, caption="", label="table:") 
 
+''' make a latex table
+param:
+    cols_align: horizontal alignment of each column
+    cols_valign: vertical alignment of each column
+    cols_dtype: a list representing the datatype of each row
+    data: the entries of the table
+return: a latex table with entries corresponding to its datatype
+'''
 def makeTable(cols_align,cols_valign,cols_dtype,data):
     table = Texttable()
     table.set_cols_align(cols_align)
